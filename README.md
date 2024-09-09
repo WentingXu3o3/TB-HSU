@@ -5,4 +5,4 @@ THis is the code for AAAI25 to reproduce TB-HSU
 ### 2. For 3DHSG dataset
     /3DHSG/dataset/3DHSG_test.json
 ### 3. For results reproduction 
-    Run with main.py
+    Run main.py
