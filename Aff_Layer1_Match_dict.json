@@ -1,0 +1,14 @@
+{
+    "bedroom":"bedroom", 
+    "bathroom":"bathroom", 
+    "livingroom":"livingroom", 
+    "kitchen":"kitchen", 
+    "studio":"studio", 
+    "nursery":"kidsroom", 
+    "restaurant":"restaurant", 
+    "office":"office",
+    "storeroom":"storage", 
+    "meetingroom":"meetingroom", 
+    "lobby":"lobby",
+    "others":"others"
+}
