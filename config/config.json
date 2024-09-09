@@ -1,0 +1,16 @@
+{
+    "dataset":"3DHSG",
+    "numLabels": 20,
+    "cat":false,
+    "zero_shot" :false,
+    "embed_dim":384,
+    "SE_type":"nnEmbedding",
+    "transformer_layers":4,
+    "dropout_rate":0.3,
+    "semantic_embedding_is":true,
+    "positional_embedding_is":true,
+    "print_log":false,
+    "pre_objs_meancentroid":true,
+    "visualize_attn_matrix":false,
+    "relative_distance":true
+}
