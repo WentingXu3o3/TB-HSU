@@ -12,49 +12,9 @@ The concept of function and affordance is a critical aspect of 3D scene understa
 
 
 ## 3DHSG Dataset
-The 3DHSG Dataset is a JSON file and holds the data format in the following structure.
-```
-{
-    "RoomID":{
-        "scanID":"0a4b8ef6-a83a-21f2-8672-dce34dd0d7ca",
-        "roomtype": "bedroom",
-        "regions":{
-            "0":{
-                "region_specific_aff":"",
-                "contents":[ID1,ID2,ID3]
-            },
-            "1":{
-                "region_specific_aff":"",
-                "contents":[ID4,ID5,ID6]
-            }
-            }
-        }
-        "objects":{
-            "3": {
-                "label": "tv",
-                "H3DSG_obj_aff": [
-                    "entertainment, watching",
-                    "for entertainment"
-                ],
-                 "H3DSG_obj_relabel": "tv",
-                "obj_shown_in": [
-                    "office",
-                    "livingroom",
-                    "bedroom",
-                    "studio"
-                ],
-                "attributes": {
-                ...
-                },
-                "segments": [
-                    ...],
-                ...
-        }
-    }
-}
-```
+we introduce the **3D** **H**ierarchical **S**cene **G**raph (3DHSG) dataset that extends the [3DSSG](https://github.com/ShunChengWu/3DSSG) dataset, which itself extends the [3RScan](https://github.com/WaldJohannaU/3RScan) dataset. 3DHSG captures the spatial organization for a 3D scene in a three-layered graph, where nodes represent objects, regions within rooms, and rooms. Object nodes include context-specific affordances, while region nodes cluster objects with the same region-specific affordances, and room nodes contain the type of room.
 
-Download the dataset from this repository at ./dataset/3DHSG.
+The 3DHSG Dataset is a JSON file and can be downloaded from this repository at ./dataset/3DHSG.
 
 ### 1. Environment install
     conda environment in TB-HSU.yml
