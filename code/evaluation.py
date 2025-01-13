@@ -255,7 +255,7 @@ def test(model):
         All_area_dict
 
 if __name__ == '__main__':
-    config_file_path = os.path.join(os.path.dirname(__file__), 'config','config.json')
+    config_file_path = os.path.join(os.path.dirname(__file__), 'config','config_evaluation.json')
     config = config.GetConfig(config_file_path)
     # the config file is set to run TB-HSU with positional embedding to reproduce the multi-results.
     device = "cuda" if torch.cuda.is_available() else "cpu"
