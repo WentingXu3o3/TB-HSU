@@ -20,13 +20,5 @@ SHELL ["/bin/bash", "-c"]
 RUN echo "source /opt/conda/etc/profile.d/conda.sh && conda activate dsg_3d" >> ~/.bashrc
 
 
-# Modify the PATH environment variable to include the conda environment's binaries
-# ENV PATH /opt/conda/envs/env/bin:$PATHs
-#ENV PATH /opt/conda/envs
-
-# PATH = [a, b, c, d]
-# PATH = [/opt/conda/envs/env/bin, ...PATH]
-# PATH = [/opt/conda/envs/env/bin, a, b, c, d]
-# PATH = [/opt/conda/envs/env/bin]
  
 CMD ["/bin/bash"] 
