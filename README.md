@@ -34,6 +34,7 @@ We train and test our code on three datasets.
 * [3DHSG](https://github.com/WentingXu3o3/TB-HSU/tree/main/dataset/3DHSG)
 * [ScanNet](https://github.com/ScanNet/ScanNet)
 * [Matterport3D](https://github.com/niessner/Matterport)
+
 please follow their instructions to download these datasets.
 
 ### 2. To train TB-HSU model
