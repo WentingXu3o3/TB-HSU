@@ -12,7 +12,7 @@ The concept of function and affordance is a critical aspect of 3D scene understa
 
 
 ## 3DHSG Dataset
-we introduce the **3D** **H**ierarchical **S**cene **G**raph (3DHSG) dataset that extends the [3DSSG](https://github.com/ShunChengWu/3DSSG) dataset, which itself extends the [3RScan](https://github.com/WaldJohannaU/3RScan) dataset. 3DHSG captures the spatial organization for a 3D scene in a three-layered graph, where nodes represent objects, regions within rooms, and rooms. Object nodes include context-specific affordances, while region nodes cluster objects with the same region-specific affordances, and room nodes contain the type of room.
+We introduce the **3D** **H**ierarchical **S**cene **G**raph (3DHSG) dataset that extends the [3DSSG](https://github.com/ShunChengWu/3DSSG) dataset, which itself extends the [3RScan](https://github.com/WaldJohannaU/3RScan) dataset. 3DHSG captures the spatial organization for a 3D scene in a three-layered graph, where nodes represent objects, regions within rooms, and rooms. Object nodes include context-specific affordances, while region nodes cluster objects with the same region-specific affordances, and room nodes contain the room type.
 
 The 3DHSG Dataset is a JSON file and can be downloaded from this repository at ./dataset/3DHSG.
 
