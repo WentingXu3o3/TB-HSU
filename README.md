@@ -43,6 +43,7 @@ please follow their instructions to download these datasets and save them under 
 * Download Preloaded scan data from 3Rscan at [link](https://unisydneyedu-my.sharepoint.com/my?id=%2Fpersonal%2Fwexu2476%5Funi%5Fsydney%5Fedu%5Fau%2FDocuments%2Fpython%2FTB%2DHSU%2F3DHSG).
 * RUN ./code/evaluation.py to reproduce the results.
 ## License
+TB-HSU is released under MIT License.
 ## Acknowledgments
 ## Citation
 If you find our work useful in your research, please consider citing us:
