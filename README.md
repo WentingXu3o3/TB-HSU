@@ -46,8 +46,8 @@ please follow their instructions to download these datasets and save them under 
 TB-HSU is released under MIT License.
 ## Acknowledgments
 Many thanks to the following codes that help us a lot in building this codebase:
-[CLIP](https://github.com/openai/CLIP)
-[3DSSG](https://github.com/ShunChengWu/3DSSG)
+* [CLIP](https://github.com/openai/CLIP)
+* [3DSSG](https://github.com/ShunChengWu/3DSSG)
 
 ## Citation
 If you find our work useful in your research, please consider citing us:
