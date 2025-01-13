@@ -14,10 +14,47 @@ The concept of function and affordance is a critical aspect of 3D scene understa
 ## 3DHSG Dataset
 The 3DHSG Dataset is a JSON file and holds the data format in the following structure.
 ```
-
+{
+    "RoomID":{
+        "scanID":"0a4b8ef6-a83a-21f2-8672-dce34dd0d7ca",
+        "roomtype": "bedroom",
+        "regions":{
+            "0":{
+                "region_specific_aff":"",
+                "contents":[ID1,ID2,ID3]
+            },
+            "1":{
+                "region_specific_aff":"",
+                "contents":[ID4,ID5,ID6]
+            }
+            }
+        }
+        "objects":{
+            "3": {
+                "label": "tv",
+                "H3DSG_obj_aff": [
+                    "entertainment, watching",
+                    "for entertainment"
+                ],
+                 "H3DSG_obj_relabel": "tv",
+                "obj_shown_in": [
+                    "office",
+                    "livingroom",
+                    "bedroom",
+                    "studio"
+                ],
+                "attributes": {
+                ...
+                },
+                "segments": [
+                    ...],
+                ...
+        }
+    }
+}
 ```
 
-Download the dataset from this repository at TB-HSU/dataset/3DHSG.
+Download the dataset from this repository at ./dataset/3DHSG.
 
 ### 1. Environment install
     conda environment in TB-HSU.yml
