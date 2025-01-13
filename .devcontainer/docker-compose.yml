@@ -1,0 +1,22 @@
+version:  "3.7"
+services: 
+  devcontainer:
+    build: .
+    image: img_tb_hsu
+    container_name: tb_hsu
+    volumes:
+      - PATH/TO/TB-HSU/.devcontainer:/tb_hsu/.devcontainer
+      - PATH/TO/TB-HSU/code:/tb_hsu/code
+      - PATH/TO/TB-HSU/data/ScanNetAll:/tb_hsu/data/ScanNet
+      - PATH/TO/TB-HSU/data/3RScan:/tb_hsu/data/3RScanAll
+      - PATH/TO/TB-HSU/data/Matterport3D:/tb_hsu/data/Matterport3D
+      - ~/.ssh:/root/.ssh:ro
+      - ~/.gitconfig:/root/.gitconfig:ro
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [gpu]
+    entrypoint: bash
+    stdin_open: true
+    tty: true
