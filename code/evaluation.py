@@ -28,7 +28,7 @@ import torch
 from torch.utils.data import DataLoader
 from model import H3DSG_model
 from src.build_dataset import H3DSG_dataset
-from config import config_evaluation as config
+from config import config_evaluation
 
 
 def H3DSG_Object_Groups_Prepartion(GroupingFile):
@@ -50,7 +50,7 @@ def H3DSG_Object_Groups_Prepartion(GroupingFile):
             for key, value in aff_layer2.items():
                 match_aff_region[value] = key
             list_aff_region = sorted(list(aff_layer2.keys()))
-        with open (os.path.join(os.path.dirname(__file__),'3DHSG','3DHSG_test.json'),'r')as f:
+        with open (os.path.join(os.path.dirname(__file__),'3DHSG_dataset','3DHSG_test.json'),'r')as f:
             H3DSG = json.load(f)
 
         scans_dict = {}
@@ -141,13 +141,13 @@ def test(model):
             obj_obb = obj_obb.to(device)
             obj_label_tokenize = obj_label_tokenize.to(device)
             room_obb = room_obb.to(device)
-            if not config.zero_shot:
+            if not config_evaluation.zero_shot:
                 predicted_roomtype, predicted_areatypes, attn_matrix = model(
                     len_obj_labels,
                     room_obb = room_obb,
                     obj_obbs = obj_obb, 
                     obj_token = obj_label_tokenize, 
-                    cat=config.cat)
+                    cat=config_evaluation.cat)
             roomtype_gt = ground_truth_matrix[:,0] #torch.Size([1, 1])
             areatype_gt = ground_truth_matrix[:,1:] # print(areatype_gt.shape) #torch.Size([1, 77])
 
@@ -164,7 +164,7 @@ def test(model):
         
         at_correct_initial += correct_predictions / total_predictions
         
-        if config.print_log:
+        if config_evaluation.print_log:
             print("\n\n")
             print(scans.index(test_dataset.dataset[idx]["scanid"]),test_dataset.dataset[idx]["scanid"],"RoomtypePredict:",all_roomtypes_list[rm_index.indices[0]],"GT:",all_roomtypes_list[roomtype_gt[0]])
         
@@ -180,9 +180,9 @@ def test(model):
             
             # Append the area info to the corresponding group key
             Area_dict[at_index_group].append(area_info)
-            if config.print_log:
+            if config_evaluation.print_log:
                 print(test_dataset.dataset[idx]["obj_labels_id"][i], test_dataset.dataset[idx]["obj_labels"][i], "Predict:", at_index_group, "GT:", gt_group)
-        if config.print_log:
+        if config_evaluation.print_log:
             print("AT Accuracy The Scan:",'\033[31m'+str((correct_predictions / total_predictions).item())+'\033[0m')
         
         '''rm mIoU'''
@@ -209,7 +209,7 @@ def test(model):
         
         # print(all_roomtypes_list[rm_index.indices[0]],":")
         # # print(Area_dict)
-        if config.print_log:
+        if config_evaluation.print_log:
             print("\n")
             for key, value in Area_dict.items():
                 print(f"{key}\n: {value}")
@@ -237,7 +237,7 @@ def test(model):
     at_IoU = at_IoU[TYPE_VALID_AT_CLASS_IDS]
 
 
-    if config.print_log:
+    if config_evaluation.print_log:
         print("\n")
         print("Validation Results:")
         print("     Room_Accuracys:",rm_correct_initial.item()/len(test_dataloader))
@@ -256,15 +256,15 @@ def test(model):
 
 if __name__ == '__main__':
     config_file_path = os.path.join(os.path.dirname(__file__), 'config','config_evaluation.json')
-    config = config.GetConfig(config_file_path)
+    config_evaluation = config_evaluation.GetConfig(config_file_path)
     # the config file is set to run TB-HSU with positional embedding to reproduce the multi-results.
     device = "cuda" if torch.cuda.is_available() else "cpu"
-    config.device = device
+    config_evaluation.device = device
 
-    if config.dataset=='3DHSG':
-        scans, object_rooms_all_scan, object_points_all_scan = Dataset_Preparation_raw(config.dataset)
+    if config_evaluation.dataset=='3DHSG':
+        scans, object_rooms_all_scan, object_points_all_scan = Dataset_Preparation_raw(config_evaluation.dataset)
        
-        test_dataset = H3DSG_dataset(scans, object_rooms_all_scan, object_points_all_scan,config)
+        test_dataset = H3DSG_dataset(scans, object_rooms_all_scan, object_points_all_scan,config_evaluation)
         
         all_grouptypes = ['appliance_area', 'bathing_area', 'bedding_area', 'changing_area', 'coffee_bar', 'commode_area', 'decoration_area', 'dining_area', 'entrance_area', 'fireplace_area', 'kitchen_area', 'lightening_area', 'makingup_area', 'nightstand_area', 'office_area', 'others', 'rack_area', 'shelf_area', 'sink_area', 'sitting_area', 'storage_area', 'supporting_area', 'table_area', 'toilet_area', 'tv_area', 'wardrobe_area', 'window_area']
         all_roomtypes = ['bathroom', 'bedroom', 'kitchen', 'livingroom', 'lobby', 'meetingroom', 'nursery', 'office', 'others', 'restaurant', 'storeroom', 'studio']
@@ -282,18 +282,18 @@ if __name__ == '__main__':
         test_dataloader = DataLoader(test_dataset, batch_size=1, shuffle= False)
         
         model = H3DSG_model(            
-            config,
+            config_evaluation,
             len(all_roomtypes),
             len(all_grouptypes),
-            embed_dim = config.embed_dim,
-            num_objects =  config.num_objects,
-            transformer_width = config.transformer_width,
-            transformer_layers = config.transformer_layers,
-            semantic_embedding_is = config.semantic_embedding_is,
-            positional_embedding_is = config.positional_embedding_is, 
+            embed_dim = config_evaluation.embed_dim,
+            num_objects =  config_evaluation.num_objects,
+            transformer_width = config_evaluation.transformer_width,
+            transformer_layers = config_evaluation.transformer_layers,
+            semantic_embedding_is = config_evaluation.semantic_embedding_is,
+            positional_embedding_is = config_evaluation.positional_embedding_is, 
             text_embedding_vocab_size = len(label_tokenize_dict),
-            zero_shot = config.zero_shot,
-            dropout = config.dropout,
+            zero_shot = config_evaluation.zero_shot,
+            dropout = config_evaluation.dropout,
             ).to(device)
         print("\n",model)
         
