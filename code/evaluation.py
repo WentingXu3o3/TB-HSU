@@ -66,7 +66,7 @@ def H3DSG_Object_Groups_Prepartion(GroupingFile):
                 "groups": groups
             }
         
-        with open (os.path.join(os.path.dirname(__file__),'3DHSG',GroupingFile.json),'w')as f:
+        with open (os.path.join(os.path.dirname(__file__),'3DHSG','3DHSG_load_test_mathced_Groups.json'),'w')as f:
             json.dump(scans_dict,f,indent=4)
     assert len(scans) == len(scans_dict)
 
