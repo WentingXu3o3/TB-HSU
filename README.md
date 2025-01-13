@@ -24,13 +24,14 @@ This codebase was tested using the following environment setup. It may work with
 * Python 3.10
 * PyTorch 2.1.2
   
-We recommend using Docker Container and conda environment for all environmental setups.
+We recommend using Docker Container and Conda environment for all environmental setups and code reproduction.
 
+Get our docker and conda configuration folder at /.devcontainer before building the container.
 
+If you are new to docker, please follow the docker container setup instructions at [link](https://github.com/WentingXu3o3/DockerContainer_NvidiaGPU_Installed).
 
-    conda environment in TB-HSU.yml
-
-### 3. For results reproduction 
+### 2. To train TB-HSU model
+### 3. To evaluate TB-HSU model
     Run main.py
 ## License
 ## Acknowledgments
