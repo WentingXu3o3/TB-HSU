@@ -39,7 +39,8 @@ please follow their instructions to download these datasets and save them under 
 
 ### 2. To train TB-HSU model
 ### 3. To evaluate TB-HSU model
-    Run main.py
+* Download TB-HSU Model state at [link](https://unisydneyedu-my.sharepoint.com/:f:/g/personal/wexu2476_uni_sydney_edu_au/EjjQ-_WyIpVDiM5Yd4CiQ8IBpljz6TL5C1M5RjmgQxPztw?e=GpjR0c)
+* RUN ./code/evaluation.py to reproduce the results.
 ## License
 ## Acknowledgments
 ## Citation
