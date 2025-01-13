@@ -1,4 +1,6 @@
-THis is the code for AAAI25 to reproduce TB-HSU
+This repository hosts the code and dataset for 
+TB-HSU: Hierarchical 3D Scene Understanding with Contextual Affordances
+
 
 ### 1. Environment install
     conda environment in TB-HSU.yml
