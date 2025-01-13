@@ -29,6 +29,12 @@ We recommend using Docker Container and Conda environment for all environmental 
 Get our docker and conda configuration folder at /.devcontainer before building the container.
 
 If you are new to docker, please follow the docker container setup instructions at [link](https://github.com/WentingXu3o3/DockerContainer_NvidiaGPU_Installed).
+### 2. To get datasets
+We train and test our code on three datasets. 
+* [3DHSG](https://github.com/WentingXu3o3/TB-HSU/tree/main/dataset/3DHSG)
+* [ScanNet](https://github.com/ScanNet/ScanNet)
+* [Matterport3D](https://github.com/niessner/Matterport)
+please follow their instructions to download these datasets.
 
 ### 2. To train TB-HSU model
 ### 3. To evaluate TB-HSU model
