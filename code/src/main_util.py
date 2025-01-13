@@ -20,3 +20,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
+def wandb_init(config):
+    if config.dataset == 'H3DSG':
+        Project_name = f'{config.dataset}'
+    return Project_name
