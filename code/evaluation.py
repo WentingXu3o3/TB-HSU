@@ -50,7 +50,7 @@ def H3DSG_Object_Groups_Prepartion(GroupingFile):
             for key, value in aff_layer2.items():
                 match_aff_region[value] = key
             list_aff_region = sorted(list(aff_layer2.keys()))
-        with open (os.path.join('PATH/TO/dataset/3DHSG','3DHSG_test.json'),'r')as f:
+        with open (os.path.join(os.path.dirname(__file__),'3DHSG','3DHSG_test.json'),'r')as f:
             H3DSG = json.load(f)
 
         scans_dict = {}
