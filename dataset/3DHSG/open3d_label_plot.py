@@ -64,14 +64,7 @@ for scanid, content in contents.items():
     else:
 
         scanname = content["scanname"]
-        vertices, faces = read_mesh(f"/Volumes/sambashare/dsg_3d/data/3RScanAll/AllData/{scanname}/labels.instances.align.annotated.v2.ply")
-
-
-        # vertices, faces = read_mesh("/Volumes/sambashare/dsg_3d/data/3RScanAll/AllData/0ad2d382-79e2-2212-98b3-641bf9d552c1/labels.instances.align.annotated.v2.ply")
-        # vertices, faces = read_mesh("/Volumes/sambashare/dsg_3d/data/3RScanAll/AllData/4fbad31e-465b-2a5d-84b7-c0ddea978db4/labels.instances.align.annotated.v2.ply")
-
-        # vertices, faces = read_mesh("data/3RScanAll/AllData/0ad2d382-79e2-2212-98b3-641bf9d552c1/labels.instances.align.annotated.v2.ply")
-        # vertices, faces = read_mesh("data/3RScanAll/AllData/0cac75b1-8d6f-2d13-8c17-9099db8915bc/labels.instances.align.annotated.v2.ply")
+        vertices, faces = read_mesh(f"/data/3RScanAll/AllData/{scanname}/labels.instances.align.annotated.v2.ply")
         points = vertices[:, :3]  # Extracting only the XYZ coordinates\
         colors = vertices[:, 3:6] / 255.0
         # Create Open3D point cloud object
