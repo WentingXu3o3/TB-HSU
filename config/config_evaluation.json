@@ -1,6 +1,5 @@
 {
     "dataset":"3DHSG",
-    "numLabels": 20,
     "cat":false,
     "zero_shot" :false,
     "embed_dim":384,
