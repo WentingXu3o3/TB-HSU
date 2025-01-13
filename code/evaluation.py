@@ -28,7 +28,7 @@ import torch
 from torch.utils.data import DataLoader
 from model import H3DSG_model
 from src.build_dataset import H3DSG_dataset
-from config import config
+from config import config_evaluation as config
 
 
 def H3DSG_Object_Groups_Prepartion(GroupingFile):
