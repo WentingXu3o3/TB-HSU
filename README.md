@@ -17,7 +17,7 @@ The 3DHSG Dataset is a JSON file and holds the data format in the following stru
 
 ```
 
-Download the dataset from this repository at TB-HSU/dataset.
+Download the dataset from this repository at TB-HSU/dataset/3DHSG.
 
 ### 1. Environment install
     conda environment in TB-HSU.yml
