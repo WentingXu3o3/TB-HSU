@@ -1,3 +1,4 @@
+1. Download 3DHSG
 3DHSG can be found in 3DHSG.json, and it follows the structure:
 
 ```
@@ -37,3 +38,6 @@
     }
 }
 ```
+2. 3DHSG Visualization
+* Firstly, follow the 3RScan downloading instructions and download the 3RScan dataset first.
+* RUN open3d_label_plot.py to visualize objects' points, objectID, and label data.
