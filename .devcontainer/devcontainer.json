@@ -1,0 +1,13 @@
+{
+    "name": "dsg_3d",
+    "dockerComposeFile": "docker-compose.yml",
+    "runServices": ["devcontainer"],
+    "service": "devcontainer",
+    "workspaceFolder": "/dsg_3d",
+    "customizations": {"vscode":{"extensions": [
+        "ms-python.python",
+        "esbenp.prettier-vscode",
+        "eamodio.gitlens"
+    ]}},
+    "shutdownAction": "none"
+}
