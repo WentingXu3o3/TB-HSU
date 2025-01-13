@@ -42,3 +42,4 @@
    
 * Firstly, follow the 3RScan downloading instructions and download the 3RScan dataset first.
 * RUN open3d_label_plot.py to visualize objects' points, objectID, and label data.
+* Input with the RoomID in 3DHSG
