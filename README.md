@@ -9,16 +9,38 @@ The concept of function and affordance is a critical aspect of 3D scene understa
 
 ![3Layers copy](https://github.com/user-attachments/assets/8e79a7d3-3d19-49fe-a36d-cbc2aa9d5275)
 
-
-
 ## 3DHSG Dataset
 We introduce the **3D** **H**ierarchical **S**cene **G**raph (3DHSG) dataset that extends the [3DSSG](https://github.com/ShunChengWu/3DSSG) dataset, which itself extends the [3RScan](https://github.com/WaldJohannaU/3RScan) dataset. 3DHSG captures the spatial organization for a 3D scene in a three-layered graph, where nodes represent objects, regions within rooms, and rooms. Object nodes include context-specific affordances, while region nodes cluster objects with the same region-specific affordances, and room nodes contain the room type.
 
 The 3DHSG Dataset is a JSON file and can be downloaded from this repository at ./dataset/3DHSG.
 
-### 1. Environment install
+## TB-HSU Model
+![AFF_Model](https://github.com/user-attachments/assets/46702156-d3fb-403f-84e9-cab73639dd72)
+
+### 1. Environment Installation
+This codebase was tested using the following environment setup. It may work with other versions.
+* Ubuntu 18.04
+* CUDA 11.7
+* Python 3.10
+* PyTorch 2.1.2
+  
+We recommend using Docker Container and conda environment for all environmental setups.
+
+
+
     conda environment in TB-HSU.yml
-### 2. For 3DHSG dataset
-    /3DHSG/dataset/3DHSG_test.json
+
 ### 3. For results reproduction 
     Run main.py
+## License
+## Acknowledgments
+## Citation
+If you find our work useful in your research, please consider citing us:
+```
+@article{xu2024tb,
+  title={TB-HSU: Hierarchical 3D Scene Understanding with Contextual Affordances},
+  author={Xu, Wenting and Ila, Viorela and Zhou, Luping and Jin, Craig T},
+  journal={arXiv preprint arXiv:2412.05596},
+  year={2024}
+}
+```
