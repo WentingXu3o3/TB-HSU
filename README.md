@@ -35,7 +35,7 @@ We train and test our code on three datasets.
 * [ScanNet](https://github.com/ScanNet/ScanNet)
 * [Matterport3D](https://github.com/niessner/Matterport)
 
-please follow their instructions to download these datasets.
+please follow their instructions to download these datasets and save them under the path "./data/"
 
 ### 2. To train TB-HSU model
 ### 3. To evaluate TB-HSU model
