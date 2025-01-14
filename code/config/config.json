@@ -17,7 +17,7 @@
     "text_embedding_context_length":77,
     "text_embedding_layers":1,
     "transformer_layers":4,
-    "random_seed":1000,
+    "random_seed":2000,
     "dropout_rate":0.3,
     "semantic_embedding_is":true,
     "positional_embedding_is":true,
