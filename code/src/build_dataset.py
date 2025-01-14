@@ -29,17 +29,7 @@ import numpy as np
 # import requests
 from sklearn.decomposition import PCA
 
-def PCA_Method(points):
-    pca = PCA(n_components=3)
-    pca.fit(points)
 
-    principal_components = pca.components_
-    # print(principal_components)
-    explained_variance = pca.explained_variance_ratio_
-    # print(explained_variance)
-    centroid = np.mean(points, axis=0)
-    # input()
-    return [principal_components, explained_variance, centroid]
 def label_onehot(obj_labels,label_tokenize_dict):
     label_onehot = torch.tensor([label_tokenize_dict.index(obj) for obj in obj_labels])
     return label_onehot
@@ -85,7 +75,6 @@ class H3DSG_dataset(data.Dataset):
             self.nodes += len(object_rooms_all_scan[scan]['groups']) + edges + 1
 
             obj_points_set = []
-            # obj_pca_set = []
             obj_labels = []
             obj_areas = []
             obj_labels_id = []
