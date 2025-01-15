@@ -1,5 +1,6 @@
 ## 1. Download 3DHSG
 The link to download the dataset will be released soon.
+
 3DHSG can be found in 3DHSG.json, and it follows the structure:
 ```
 {
