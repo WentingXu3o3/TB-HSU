@@ -40,8 +40,8 @@ please follow their instructions to download these datasets and save them under 
 ### 2. To train TB-HSU model
 * RUN ./code/main.py to train the model
 ### 3. To evaluate TB-HSU model
-* Download TB-HSU Model state at [link]([https://unisydneyedu-my.sharepoint.com/:f:/g/personal/wexu2476_uni_sydney_edu_au/EmXXqq_C3NFFtTE5BpqI-IwBt6IG4lN75KRs6cLGgyWKIA?e=i5VKcq](https://drive.google.com/drive/folders/1i8auRQqfT7Y85n5mqdkwxAsmRZ26oVIk?usp=drive_link).
-* Download Preloaded scan data from 3Rscan at [link]([https://unisydneyedu-my.sharepoint.com/:f:/g/personal/wexu2476_uni_sydney_edu_au/EiDNfa3eh95OrexefXRzpA4BbFLn2hK7RQitejMh4hk8-A?e=0lLvUZ](https://drive.google.com/drive/folders/1MzmptNheGa7ToPhMfAGjw4B4hMoAhU5t?usp=drive_link).
+* Download TB-HSU Model state at [link](https://drive.google.com/drive/folders/1i8auRQqfT7Y85n5mqdkwxAsmRZ26oVIk?usp=drive_link).
+* Download Preloaded scan data from 3Rscan at [link](https://drive.google.com/drive/folders/1MzmptNheGa7ToPhMfAGjw4B4hMoAhU5t?usp=drive_link).
 * RUN ./code/evaluation.py to reproduce the results.
 ## License
 TB-HSU is released under MIT License.
