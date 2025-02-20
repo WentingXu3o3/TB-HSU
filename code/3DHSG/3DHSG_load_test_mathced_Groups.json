@@ -1,0 +1,3794 @@
+{
+    "0a4b8ef6-a83a-21f2-8672-dce34dd0d7ca": {
+        "roomtype": [
+            1,
+            "bedroom"
+        ],
+        "groups": {
+            "0": {
+                "areaname": [
+                    24,
+                    "tv_area"
+                ],
+                "contents": [
+                    [
+                        3,
+                        "tv"
+                    ]
+                ]
+            },
+            "1": {
+                "areaname": [
+                    26,
+                    "window_area"
+                ],
+                "contents": [
+                    [
+                        5,
+                        "curtain"
+                    ],
+                    [
+                        6,
+                        "curtain"
+                    ]
+                ]
+            },
+            "2": {
+                "areaname": [
+                    2,
+                    "bedding_area"
+                ],
+                "contents": [
+                    [
+                        17,
+                        "bed"
+                    ],
+                    [
+                        25,
+                        "blanket"
+                    ],
+                    [
+                        26,
+                        "pillow"
+                    ],
+                    [
+                        27,
+                        "pillow"
+                    ],
+                    [
+                        28,
+                        "pillow"
+                    ],
+                    [
+                        29,
+                        "pillow"
+                    ],
+                    [
+                        30,
+                        "pillow"
+                    ],
+                    [
+                        31,
+                        "blanket"
+                    ],
+                    [
+                        47,
+                        "pillow"
+                    ]
+                ]
+            },
+            "3": {
+                "areaname": [
+                    19,
+                    "sitting_area"
+                ],
+                "contents": [
+                    [
+                        18,
+                        "armchair"
+                    ],
+                    [
+                        19,
+                        "puf"
+                    ],
+                    [
+                        45,
+                        "side table"
+                    ]
+                ]
+            },
+            "4": {
+                "areaname": [
+                    17,
+                    "shelf_area"
+                ],
+                "contents": [
+                    [
+                        10,
+                        "shelf"
+                    ],
+                    [
+                        23,
+                        "suitcase"
+                    ],
+                    [
+                        35,
+                        "poster"
+                    ]
+                ]
+            },
+            "5": {
+                "areaname": [
+                    8,
+                    "entrance_area"
+                ],
+                "contents": [
+                    [
+                        14,
+                        "door"
+                    ],
+                    [
+                        20,
+                        "clothes"
+                    ]
+                ]
+            },
+            "6": {
+                "areaname": [
+                    11,
+                    "lightening_area"
+                ],
+                "contents": [
+                    [
+                        36,
+                        "light"
+                    ]
+                ]
+            }
+        }
+    },
+    "0ad2d3a1-79e2-2212-9b99-a96495d9f7fe": {
+        "roomtype": [
+            0,
+            "bathroom"
+        ],
+        "groups": {
+            "0": {
+                "areaname": [
+                    1,
+                    "bathing_area"
+                ],
+                "contents": [
+                    [
+                        4,
+                        "shower curtain"
+                    ],
+                    [
+                        5,
+                        "shower"
+                    ],
+                    [
+                        16,
+                        "rack"
+                    ]
+                ]
+            },
+            "1": {
+                "areaname": [
+                    18,
+                    "sink_area"
+                ],
+                "contents": [
+                    [
+                        8,
+                        "sink"
+                    ],
+                    [
+                        32,
+                        "shelf"
+                    ],
+                    [
+                        9,
+                        "curtain"
+                    ]
+                ]
+            },
+            "2": {
+                "areaname": [
+                    0,
+                    "appliance_area"
+                ],
+                "contents": [
+                    [
+                        12,
+                        "washing machine"
+                    ],
+                    [
+                        21,
+                        "water heater"
+                    ],
+                    [
+                        11,
+                        "curtain"
+                    ]
+                ]
+            },
+            "3": {
+                "areaname": [
+                    23,
+                    "toilet_area"
+                ],
+                "contents": [
+                    [
+                        14,
+                        "toilet"
+                    ],
+                    [
+                        13,
+                        "bin"
+                    ],
+                    [
+                        15,
+                        "bidet"
+                    ],
+                    [
+                        24,
+                        "dispenser"
+                    ]
+                ]
+            },
+            "4": {
+                "areaname": [
+                    8,
+                    "entrance_area"
+                ],
+                "contents": [
+                    [
+                        17,
+                        "door"
+                    ]
+                ]
+            }
+        }
+    },
+    "0ad2d3a7-79e2-2212-9a1b-8737842a24e2": {
+        "roomtype": [
+            0,
+            "bathroom"
+        ],
+        "groups": {
+            "0": {
+                "areaname": [
+                    18,
+                    "sink_area"
+                ],
+                "contents": [
+                    [
+                        7,
+                        "sink"
+                    ],
+                    [
+                        8,
+                        "stool"
+                    ],
+                    [
+                        9,
+                        "mirror"
+                    ],
+                    [
+                        14,
+                        "bucket"
+                    ]
+                ]
+            },
+            "1": {
+                "areaname": [
+                    1,
+                    "bathing_area"
+                ],
+                "contents": [
+                    [
+                        10,
+                        "shower curtain"
+                    ],
+                    [
+                        11,
+                        "shower"
+                    ],
+                    [
+                        22,
+                        "shelf"
+                    ]
+                ]
+            },
+            "2": {
+                "areaname": [
+                    8,
+                    "entrance_area"
+                ],
+                "contents": [
+                    [
+                        12,
+                        "door"
+                    ]
+                ]
+            },
+            "3": {
+                "areaname": [
+                    23,
+                    "toilet_area"
+                ],
+                "contents": [
+                    [
+                        23,
+                        "toilet paper dispenser"
+                    ],
+                    [
+                        13,
+                        "toilet"
+                    ],
+                    [
+                        16,
+                        "trash can"
+                    ]
+                ]
+            }
+        }
+    },
+    "0ad2d384-79e2-2212-9b18-72b44eb5463f": {
+        "roomtype": [
+            1,
+            "bedroom"
+        ],
+        "groups": {
+            "0": {
+                "areaname": [
+                    2,
+                    "bedding_area"
+                ],
+                "contents": [
+                    [
+                        2,
+                        "bed"
+                    ],
+                    [
+                        37,
+                        "pillow"
+                    ],
+                    [
+                        38,
+                        "pillow"
+                    ],
+                    [
+                        39,
+                        "towel"
+                    ],
+                    [
+                        40,
+                        "towel"
+                    ]
+                ]
+            },
+            "1": {
+                "areaname": [
+                    14,
+                    "office_area"
+                ],
+                "contents": [
+                    [
+                        13,
+                        "table"
+                    ],
+                    [
+                        18,
+                        "bag"
+                    ],
+                    [
+                        19,
+                        "bag"
+                    ],
+                    [
+                        21,
+                        "tv"
+                    ],
+                    [
+                        33,
+                        "kettle"
+                    ],
+                    [
+                        14,
+                        "chair"
+                    ],
+                    [
+                        9,
+                        "shelf"
+                    ]
+                ]
+            },
+            "2": {
+                "areaname": [
+                    26,
+                    "window_area"
+                ],
+                "contents": [
+                    [
+                        6,
+                        "window"
+                    ],
+                    [
+                        7,
+                        "curtain"
+                    ]
+                ]
+            },
+            "3": {
+                "areaname": [
+                    12,
+                    "makingup_area"
+                ],
+                "contents": [
+                    [
+                        11,
+                        "commode"
+                    ],
+                    [
+                        17,
+                        "chair"
+                    ],
+                    [
+                        27,
+                        "mirror"
+                    ],
+                    [
+                        35,
+                        "shelf"
+                    ]
+                ]
+            },
+            "4": {
+                "areaname": [
+                    8,
+                    "entrance_area"
+                ],
+                "contents": [
+                    [
+                        15,
+                        "door"
+                    ],
+                    [
+                        46,
+                        "doorframe"
+                    ]
+                ]
+            },
+            "5": {
+                "areaname": [
+                    8,
+                    "entrance_area"
+                ],
+                "contents": [
+                    [
+                        12,
+                        "door"
+                    ]
+                ]
+            },
+            "6": {
+                "areaname": [
+                    8,
+                    "entrance_area"
+                ],
+                "contents": [
+                    [
+                        25,
+                        "door"
+                    ]
+                ]
+            },
+            "7": {
+                "areaname": [
+                    0,
+                    "appliance_area"
+                ],
+                "contents": [
+                    [
+                        31,
+                        "air conditioner"
+                    ]
+                ]
+            },
+            "8": {
+                "areaname": [
+                    13,
+                    "nightstand_area"
+                ],
+                "contents": [
+                    [
+                        16,
+                        "nightstand"
+                    ],
+                    [
+                        24,
+                        "item"
+                    ],
+                    [
+                        45,
+                        "lamp"
+                    ]
+                ]
+            },
+            "9": {
+                "areaname": [
+                    11,
+                    "lightening_area"
+                ],
+                "contents": [
+                    [
+                        44,
+                        "lamp"
+                    ]
+                ]
+            }
+        }
+    },
+    "0ad2d391-79e2-2212-98a3-7e2440884395": {
+        "roomtype": [
+            1,
+            "bedroom"
+        ],
+        "groups": {
+            "0": {
+                "areaname": [
+                    2,
+                    "bedding_area"
+                ],
+                "contents": [
+                    [
+                        2,
+                        "bed"
+                    ],
+                    [
+                        20,
+                        "pillow"
+                    ],
+                    [
+                        21,
+                        "pillow"
+                    ],
+                    [
+                        22,
+                        "pillow"
+                    ]
+                ]
+            },
+            "1": {
+                "areaname": [
+                    22,
+                    "table_area"
+                ],
+                "contents": [
+                    [
+                        8,
+                        "chair"
+                    ],
+                    [
+                        12,
+                        "table"
+                    ]
+                ]
+            },
+            "2": {
+                "areaname": [
+                    26,
+                    "window_area"
+                ],
+                "contents": [
+                    [
+                        9,
+                        "curtain"
+                    ]
+                ]
+            },
+            "3": {
+                "areaname": [
+                    25,
+                    "wardrobe_area"
+                ],
+                "contents": [
+                    [
+                        7,
+                        "wardrobe"
+                    ]
+                ]
+            },
+            "4": {
+                "areaname": [
+                    8,
+                    "entrance_area"
+                ],
+                "contents": [
+                    [
+                        11,
+                        "door"
+                    ]
+                ]
+            },
+            "5": {
+                "areaname": [
+                    24,
+                    "tv_area"
+                ],
+                "contents": [
+                    [
+                        17,
+                        "tv"
+                    ]
+                ]
+            },
+            "6": {
+                "areaname": [
+                    0,
+                    "appliance_area"
+                ],
+                "contents": [
+                    [
+                        18,
+                        "air conditioner"
+                    ]
+                ]
+            },
+            "7": {
+                "areaname": [
+                    16,
+                    "rack_area"
+                ],
+                "contents": [
+                    [
+                        19,
+                        "shoe rack"
+                    ]
+                ]
+            },
+            "8": {
+                "areaname": [
+                    13,
+                    "nightstand_area"
+                ],
+                "contents": [
+                    [
+                        13,
+                        "nightstand"
+                    ],
+                    [
+                        15,
+                        "lamp"
+                    ],
+                    [
+                        14,
+                        "nightstand"
+                    ],
+                    [
+                        16,
+                        "lamp"
+                    ],
+                    [
+                        29,
+                        "box"
+                    ]
+                ]
+            }
+        }
+    },
+    "0cac75a7-8d6f-2d13-8fdc-083ff44d10fb": {
+        "roomtype": [
+            1,
+            "bedroom"
+        ],
+        "groups": {
+            "0": {
+                "areaname": [
+                    2,
+                    "bedding_area"
+                ],
+                "contents": [
+                    [
+                        4,
+                        "bed"
+                    ],
+                    [
+                        24,
+                        "pillow"
+                    ],
+                    [
+                        25,
+                        "pillow"
+                    ],
+                    [
+                        26,
+                        "pillow"
+                    ],
+                    [
+                        27,
+                        "pillow"
+                    ]
+                ]
+            },
+            "1": {
+                "areaname": [
+                    5,
+                    "commode_area"
+                ],
+                "contents": [
+                    [
+                        5,
+                        "commode"
+                    ],
+                    [
+                        13,
+                        "clothes"
+                    ],
+                    [
+                        16,
+                        "photo frame"
+                    ],
+                    [
+                        17,
+                        "photo frame"
+                    ],
+                    [
+                        28,
+                        "item"
+                    ],
+                    [
+                        29,
+                        "item"
+                    ]
+                ]
+            },
+            "2": {
+                "areaname": [
+                    26,
+                    "window_area"
+                ],
+                "contents": [
+                    [
+                        15,
+                        "window"
+                    ],
+                    [
+                        12,
+                        "blinds"
+                    ]
+                ]
+            },
+            "3": {
+                "areaname": [
+                    22,
+                    "table_area"
+                ],
+                "contents": [
+                    [
+                        8,
+                        "table"
+                    ],
+                    [
+                        11,
+                        "cube"
+                    ]
+                ]
+            },
+            "4": {
+                "areaname": [
+                    17,
+                    "shelf_area"
+                ],
+                "contents": [
+                    [
+                        9,
+                        "shelf"
+                    ]
+                ]
+            },
+            "5": {
+                "areaname": [
+                    17,
+                    "shelf_area"
+                ],
+                "contents": [
+                    [
+                        10,
+                        "shelf"
+                    ]
+                ]
+            },
+            "6": {
+                "areaname": [
+                    11,
+                    "lightening_area"
+                ],
+                "contents": [
+                    [
+                        20,
+                        "lamp"
+                    ]
+                ]
+            },
+            "7": {
+                "areaname": [
+                    13,
+                    "nightstand_area"
+                ],
+                "contents": [
+                    [
+                        6,
+                        "nightstand"
+                    ],
+                    [
+                        7,
+                        "nightstand"
+                    ],
+                    [
+                        22,
+                        "lamp"
+                    ],
+                    [
+                        23,
+                        "lamp"
+                    ]
+                ]
+            }
+        }
+    },
+    "0cac75b3-8d6f-2d13-8f4b-3d74070429df": {
+        "roomtype": [
+            3,
+            "livingroom"
+        ],
+        "groups": {
+            "0": {
+                "areaname": [
+                    19,
+                    "sitting_area"
+                ],
+                "contents": [
+                    [
+                        2,
+                        "couch"
+                    ],
+                    [
+                        30,
+                        "plant"
+                    ],
+                    [
+                        61,
+                        "pillow"
+                    ],
+                    [
+                        62,
+                        "pillow"
+                    ],
+                    [
+                        63,
+                        "pillow"
+                    ],
+                    [
+                        65,
+                        "pillow"
+                    ],
+                    [
+                        9,
+                        "couch"
+                    ],
+                    [
+                        18,
+                        "table"
+                    ],
+                    [
+                        51,
+                        "vase"
+                    ]
+                ]
+            },
+            "1": {
+                "areaname": [
+                    20,
+                    "storage_area"
+                ],
+                "contents": [
+                    [
+                        29,
+                        "shelf"
+                    ],
+                    [
+                        33,
+                        "shelf"
+                    ],
+                    [
+                        34,
+                        "commode"
+                    ],
+                    [
+                        36,
+                        "shelf"
+                    ],
+                    [
+                        66,
+                        "lamp"
+                    ],
+                    [
+                        68,
+                        "plant"
+                    ]
+                ]
+            },
+            "2": {
+                "areaname": [
+                    7,
+                    "dining_area"
+                ],
+                "contents": [
+                    [
+                        3,
+                        "table"
+                    ],
+                    [
+                        25,
+                        "chair"
+                    ],
+                    [
+                        27,
+                        "chair"
+                    ],
+                    [
+                        28,
+                        "chair"
+                    ],
+                    [
+                        50,
+                        "napkins"
+                    ]
+                ]
+            },
+            "3": {
+                "areaname": [
+                    22,
+                    "table_area"
+                ],
+                "contents": [
+                    [
+                        4,
+                        "chair"
+                    ],
+                    [
+                        24,
+                        "stool"
+                    ],
+                    [
+                        10,
+                        "table"
+                    ],
+                    [
+                        42,
+                        "object"
+                    ],
+                    [
+                        79,
+                        "item"
+                    ]
+                ]
+            },
+            "4": {
+                "areaname": [
+                    12,
+                    "makingup_area"
+                ],
+                "contents": [
+                    [
+                        5,
+                        "chair"
+                    ],
+                    [
+                        6,
+                        "commode"
+                    ],
+                    [
+                        45,
+                        "decoration"
+                    ],
+                    [
+                        19,
+                        "mirror"
+                    ]
+                ]
+            },
+            "5": {
+                "areaname": [
+                    22,
+                    "table_area"
+                ],
+                "contents": [
+                    [
+                        11,
+                        "table"
+                    ]
+                ]
+            },
+            "6": {
+                "areaname": [
+                    7,
+                    "dining_area"
+                ],
+                "contents": [
+                    [
+                        12,
+                        "chair"
+                    ],
+                    [
+                        13,
+                        "table"
+                    ],
+                    [
+                        14,
+                        "chair"
+                    ],
+                    [
+                        16,
+                        "lamp"
+                    ],
+                    [
+                        17,
+                        "chair"
+                    ]
+                ]
+            }
+        }
+    },
+    "0cac75c4-8d6f-2d13-8c37-fcfaf141ae5a": {
+        "roomtype": [
+            3,
+            "livingroom"
+        ],
+        "groups": {
+            "0": {
+                "areaname": [
+                    19,
+                    "sitting_area"
+                ],
+                "contents": [
+                    [
+                        2,
+                        "sofa"
+                    ],
+                    [
+                        3,
+                        "couch table"
+                    ],
+                    [
+                        31,
+                        "pillow"
+                    ],
+                    [
+                        32,
+                        "pillow"
+                    ],
+                    [
+                        34,
+                        "pillow"
+                    ],
+                    [
+                        35,
+                        "pillow"
+                    ],
+                    [
+                        36,
+                        "pillow"
+                    ],
+                    [
+                        37,
+                        "cup"
+                    ],
+                    [
+                        38,
+                        "cup"
+                    ]
+                ]
+            },
+            "1": {
+                "areaname": [
+                    17,
+                    "shelf_area"
+                ],
+                "contents": [
+                    [
+                        30,
+                        "shelf"
+                    ]
+                ]
+            },
+            "2": {
+                "areaname": [
+                    26,
+                    "window_area"
+                ],
+                "contents": [
+                    [
+                        4,
+                        "curtain"
+                    ]
+                ]
+            },
+            "3": {
+                "areaname": [
+                    5,
+                    "commode_area"
+                ],
+                "contents": [
+                    [
+                        8,
+                        "commode"
+                    ],
+                    [
+                        9,
+                        "picture"
+                    ],
+                    [
+                        27,
+                        "box"
+                    ],
+                    [
+                        28,
+                        "candle"
+                    ],
+                    [
+                        29,
+                        "candle"
+                    ],
+                    [
+                        14,
+                        "commode"
+                    ],
+                    [
+                        26,
+                        "plant"
+                    ]
+                ]
+            },
+            "4": {
+                "areaname": [
+                    24,
+                    "tv_area"
+                ],
+                "contents": [
+                    [
+                        11,
+                        "tv stand"
+                    ],
+                    [
+                        20,
+                        "box"
+                    ],
+                    [
+                        21,
+                        "tv"
+                    ]
+                ]
+            },
+            "5": {
+                "areaname": [
+                    20,
+                    "storage_area"
+                ],
+                "contents": [
+                    [
+                        12,
+                        "cabinet"
+                    ],
+                    [
+                        15,
+                        "cabinet"
+                    ],
+                    [
+                        22,
+                        "cabinet"
+                    ],
+                    [
+                        13,
+                        "shelf"
+                    ]
+                ]
+            },
+            "6": {
+                "areaname": [
+                    6,
+                    "decoration_area"
+                ],
+                "contents": [
+                    [
+                        6,
+                        "picture"
+                    ],
+                    [
+                        7,
+                        "picture"
+                    ]
+                ]
+            }
+        }
+    },
+    "0cac75c8-8d6f-2d13-8c08-b3c40c58e0f7": {
+        "roomtype": [
+            3,
+            "livingroom"
+        ],
+        "groups": {
+            "0": {
+                "areaname": [
+                    19,
+                    "sitting_area"
+                ],
+                "contents": [
+                    [
+                        2,
+                        "couch"
+                    ],
+                    [
+                        5,
+                        "couch table"
+                    ],
+                    [
+                        25,
+                        "pillow"
+                    ],
+                    [
+                        26,
+                        "pillow"
+                    ],
+                    [
+                        27,
+                        "pillow"
+                    ],
+                    [
+                        28,
+                        "pillow"
+                    ],
+                    [
+                        29,
+                        "pillow"
+                    ],
+                    [
+                        30,
+                        "pillow"
+                    ],
+                    [
+                        31,
+                        "pillow"
+                    ],
+                    [
+                        32,
+                        "blanket"
+                    ],
+                    [
+                        4,
+                        "armchair"
+                    ]
+                ]
+            },
+            "1": {
+                "areaname": [
+                    17,
+                    "shelf_area"
+                ],
+                "contents": [
+                    [
+                        24,
+                        "shelf"
+                    ]
+                ]
+            },
+            "2": {
+                "areaname": [
+                    7,
+                    "dining_area"
+                ],
+                "contents": [
+                    [
+                        6,
+                        "table"
+                    ],
+                    [
+                        7,
+                        "chair"
+                    ],
+                    [
+                        8,
+                        "chair"
+                    ],
+                    [
+                        9,
+                        "chair"
+                    ],
+                    [
+                        10,
+                        "chair"
+                    ]
+                ]
+            },
+            "3": {
+                "areaname": [
+                    19,
+                    "sitting_area"
+                ],
+                "contents": [
+                    [
+                        12,
+                        "side table"
+                    ],
+                    [
+                        13,
+                        "couch"
+                    ],
+                    [
+                        34,
+                        "plant"
+                    ]
+                ]
+            },
+            "4": {
+                "areaname": [
+                    26,
+                    "window_area"
+                ],
+                "contents": [
+                    [
+                        33,
+                        "curtain"
+                    ]
+                ]
+            },
+            "5": {
+                "areaname": [
+                    6,
+                    "decoration_area"
+                ],
+                "contents": [
+                    [
+                        15,
+                        "mirror"
+                    ],
+                    [
+                        16,
+                        "vase"
+                    ]
+                ]
+            }
+        }
+    },
+    "0cac75d0-8d6f-2d13-8c26-d771a31c3f50": {
+        "roomtype": [
+            3,
+            "livingroom"
+        ],
+        "groups": {
+            "0": {
+                "areaname": [
+                    19,
+                    "sitting_area"
+                ],
+                "contents": [
+                    [
+                        2,
+                        "couch"
+                    ],
+                    [
+                        4,
+                        "couch table"
+                    ],
+                    [
+                        29,
+                        "pillow"
+                    ],
+                    [
+                        30,
+                        "pillow"
+                    ],
+                    [
+                        31,
+                        "pillow"
+                    ],
+                    [
+                        32,
+                        "pillow"
+                    ],
+                    [
+                        33,
+                        "pillow"
+                    ],
+                    [
+                        34,
+                        "pillow"
+                    ],
+                    [
+                        35,
+                        "pillow"
+                    ],
+                    [
+                        36,
+                        "pillow"
+                    ],
+                    [
+                        37,
+                        "pillow"
+                    ],
+                    [
+                        38,
+                        "pillow"
+                    ],
+                    [
+                        39,
+                        "pillow"
+                    ],
+                    [
+                        40,
+                        "pillow"
+                    ],
+                    [
+                        41,
+                        "pillow"
+                    ],
+                    [
+                        42,
+                        "pillow"
+                    ],
+                    [
+                        43,
+                        "blanket"
+                    ]
+                ]
+            },
+            "1": {
+                "areaname": [
+                    5,
+                    "commode_area"
+                ],
+                "contents": [
+                    [
+                        16,
+                        "commode"
+                    ]
+                ]
+            },
+            "2": {
+                "areaname": [
+                    19,
+                    "sitting_area"
+                ],
+                "contents": [
+                    [
+                        3,
+                        "armchair"
+                    ],
+                    [
+                        24,
+                        "pillow"
+                    ],
+                    [
+                        25,
+                        "pillow"
+                    ]
+                ]
+            },
+            "3": {
+                "areaname": [
+                    5,
+                    "commode_area"
+                ],
+                "contents": [
+                    [
+                        6,
+                        "commode"
+                    ],
+                    [
+                        18,
+                        "vase"
+                    ],
+                    [
+                        22,
+                        "item"
+                    ],
+                    [
+                        23,
+                        "item"
+                    ],
+                    [
+                        13,
+                        "commode"
+                    ],
+                    [
+                        11,
+                        "commode"
+                    ],
+                    [
+                        12,
+                        "commode"
+                    ],
+                    [
+                        21,
+                        "candle"
+                    ],
+                    [
+                        17,
+                        "cabinet"
+                    ]
+                ]
+            },
+            "4": {
+                "areaname": [
+                    5,
+                    "commode_area"
+                ],
+                "contents": [
+                    [
+                        7,
+                        "commode"
+                    ],
+                    [
+                        26,
+                        "frame"
+                    ],
+                    [
+                        27,
+                        "frame"
+                    ],
+                    [
+                        10,
+                        "commode"
+                    ]
+                ]
+            },
+            "5": {
+                "areaname": [
+                    12,
+                    "makingup_area"
+                ],
+                "contents": [
+                    [
+                        9,
+                        "mirror"
+                    ]
+                ]
+            }
+        }
+    },
+    "0cac75f2-8d6f-2d13-8f0f-f00e880b4e7b": {
+        "roomtype": [
+            2,
+            "kitchen"
+        ],
+        "groups": {
+            "0": {
+                "areaname": [
+                    7,
+                    "dining_area"
+                ],
+                "contents": [
+                    [
+                        2,
+                        "chair"
+                    ],
+                    [
+                        3,
+                        "chair"
+                    ],
+                    [
+                        4,
+                        "chair"
+                    ],
+                    [
+                        5,
+                        "chair"
+                    ],
+                    [
+                        6,
+                        "table"
+                    ],
+                    [
+                        27,
+                        "plant"
+                    ]
+                ]
+            },
+            "1": {
+                "areaname": [
+                    10,
+                    "kitchen_area"
+                ],
+                "contents": [
+                    [
+                        7,
+                        "kitchen cabinet"
+                    ],
+                    [
+                        8,
+                        "kitchen counter"
+                    ],
+                    [
+                        20,
+                        "kitchen cabinet"
+                    ],
+                    [
+                        32,
+                        "plant"
+                    ],
+                    [
+                        33,
+                        "item"
+                    ],
+                    [
+                        34,
+                        "item"
+                    ],
+                    [
+                        35,
+                        "kitchen towel"
+                    ],
+                    [
+                        36,
+                        "kitchen towel"
+                    ],
+                    [
+                        39,
+                        "stove"
+                    ],
+                    [
+                        40,
+                        "oven"
+                    ],
+                    [
+                        42,
+                        "box"
+                    ],
+                    [
+                        43,
+                        "item"
+                    ],
+                    [
+                        44,
+                        "cutting board"
+                    ],
+                    [
+                        46,
+                        "shelf"
+                    ]
+                ]
+            },
+            "2": {
+                "areaname": [
+                    10,
+                    "kitchen_area"
+                ],
+                "contents": [
+                    [
+                        10,
+                        "kitchen cabinet"
+                    ],
+                    [
+                        12,
+                        "kitchen cabinet"
+                    ],
+                    [
+                        18,
+                        "towel"
+                    ],
+                    [
+                        16,
+                        "shelf"
+                    ],
+                    [
+                        25,
+                        "ladder"
+                    ],
+                    [
+                        28,
+                        "sink"
+                    ],
+                    [
+                        29,
+                        "shelf"
+                    ],
+                    [
+                        30,
+                        "bottle"
+                    ],
+                    [
+                        23,
+                        "shelf"
+                    ],
+                    [
+                        31,
+                        "item"
+                    ]
+                ]
+            },
+            "3": {
+                "areaname": [
+                    26,
+                    "window_area"
+                ],
+                "contents": [
+                    [
+                        14,
+                        "curtain"
+                    ]
+                ]
+            }
+        }
+    },
+    "0cac75fe-8d6f-2d13-8dd8-87c100e95f4d": {
+        "roomtype": [
+            2,
+            "kitchen"
+        ],
+        "groups": {
+            "0": {
+                "areaname": [
+                    7,
+                    "dining_area"
+                ],
+                "contents": [
+                    [
+                        2,
+                        "chair"
+                    ],
+                    [
+                        3,
+                        "chair"
+                    ],
+                    [
+                        4,
+                        "table"
+                    ]
+                ]
+            },
+            "1": {
+                "areaname": [
+                    17,
+                    "shelf_area"
+                ],
+                "contents": [
+                    [
+                        17,
+                        "shelf"
+                    ],
+                    [
+                        15,
+                        "shelf"
+                    ]
+                ]
+            },
+            "2": {
+                "areaname": [
+                    26,
+                    "window_area"
+                ],
+                "contents": [
+                    [
+                        5,
+                        "curtain"
+                    ]
+                ]
+            },
+            "3": {
+                "areaname": [
+                    10,
+                    "kitchen_area"
+                ],
+                "contents": [
+                    [
+                        9,
+                        "kitchen counter"
+                    ],
+                    [
+                        10,
+                        "kitchen counter"
+                    ],
+                    [
+                        12,
+                        "kitchen cabinet"
+                    ],
+                    [
+                        13,
+                        "kitchen cabinet"
+                    ],
+                    [
+                        14,
+                        "kitchen cabinet"
+                    ],
+                    [
+                        16,
+                        "oven"
+                    ],
+                    [
+                        18,
+                        "telephone"
+                    ]
+                ]
+            }
+        }
+    },
+    "0cac757e-8d6f-2d13-8f1d-ef6123d53655": {
+        "roomtype": [
+            3,
+            "livingroom"
+        ],
+        "groups": {
+            "0": {
+                "areaname": [
+                    19,
+                    "sitting_area"
+                ],
+                "contents": [
+                    [
+                        2,
+                        "sofa"
+                    ],
+                    [
+                        4,
+                        "couch table"
+                    ],
+                    [
+                        25,
+                        "plant"
+                    ],
+                    [
+                        44,
+                        "blanket"
+                    ],
+                    [
+                        45,
+                        "pillow"
+                    ],
+                    [
+                        46,
+                        "pillow"
+                    ],
+                    [
+                        47,
+                        "pillow"
+                    ],
+                    [
+                        48,
+                        "pillow"
+                    ]
+                ]
+            },
+            "1": {
+                "areaname": [
+                    22,
+                    "table_area"
+                ],
+                "contents": [
+                    [
+                        3,
+                        "table"
+                    ],
+                    [
+                        36,
+                        "plant"
+                    ]
+                ]
+            },
+            "2": {
+                "areaname": [
+                    5,
+                    "commode_area"
+                ],
+                "contents": [
+                    [
+                        9,
+                        "commode"
+                    ]
+                ]
+            },
+            "3": {
+                "areaname": [
+                    26,
+                    "window_area"
+                ],
+                "contents": [
+                    [
+                        10,
+                        "curtain"
+                    ]
+                ]
+            },
+            "4": {
+                "areaname": [
+                    20,
+                    "storage_area"
+                ],
+                "contents": [
+                    [
+                        13,
+                        "cabinet"
+                    ],
+                    [
+                        12,
+                        "showcase"
+                    ]
+                ]
+            },
+            "5": {
+                "areaname": [
+                    19,
+                    "sitting_area"
+                ],
+                "contents": [
+                    [
+                        14,
+                        "armchair"
+                    ],
+                    [
+                        15,
+                        "lamp"
+                    ],
+                    [
+                        27,
+                        "pillow"
+                    ],
+                    [
+                        28,
+                        "basket"
+                    ],
+                    [
+                        29,
+                        "item"
+                    ],
+                    [
+                        49,
+                        "plant"
+                    ]
+                ]
+            },
+            "6": {
+                "areaname": [
+                    24,
+                    "tv_area"
+                ],
+                "contents": [
+                    [
+                        16,
+                        "tv stand"
+                    ],
+                    [
+                        51,
+                        "tv"
+                    ],
+                    [
+                        52,
+                        "plate"
+                    ],
+                    [
+                        50,
+                        "lamp"
+                    ]
+                ]
+            },
+            "7": {
+                "areaname": [
+                    26,
+                    "window_area"
+                ],
+                "contents": [
+                    [
+                        18,
+                        "curtain"
+                    ],
+                    [
+                        19,
+                        "curtain"
+                    ]
+                ]
+            },
+            "8": {
+                "areaname": [
+                    3,
+                    "changing_area"
+                ],
+                "contents": [
+                    [
+                        42,
+                        "mirror"
+                    ]
+                ]
+            },
+            "9": {
+                "areaname": [
+                    17,
+                    "shelf_area"
+                ],
+                "contents": [
+                    [
+                        17,
+                        "shelf"
+                    ],
+                    [
+                        30,
+                        "shelf"
+                    ]
+                ]
+            },
+            "10": {
+                "areaname": [
+                    20,
+                    "storage_area"
+                ],
+                "contents": [
+                    [
+                        21,
+                        "cabinet"
+                    ],
+                    [
+                        39,
+                        "lamp"
+                    ],
+                    [
+                        41,
+                        "box"
+                    ]
+                ]
+            }
+        }
+    },
+    "0cac759d-8d6f-2d13-8e8b-c3730d9fe563": {
+        "roomtype": [
+            6,
+            "nursery"
+        ],
+        "groups": {
+            "0": {
+                "areaname": [
+                    25,
+                    "wardrobe_area"
+                ],
+                "contents": [
+                    [
+                        7,
+                        "wardrobe"
+                    ]
+                ]
+            },
+            "1": {
+                "areaname": [
+                    26,
+                    "window_area"
+                ],
+                "contents": [
+                    [
+                        11,
+                        "curtain"
+                    ]
+                ]
+            },
+            "2": {
+                "areaname": [
+                    11,
+                    "lightening_area"
+                ],
+                "contents": [
+                    [
+                        12,
+                        "light"
+                    ]
+                ]
+            },
+            "3": {
+                "areaname": [
+                    17,
+                    "shelf_area"
+                ],
+                "contents": [
+                    [
+                        13,
+                        "stuffed animal"
+                    ],
+                    [
+                        15,
+                        "shelf"
+                    ],
+                    [
+                        16,
+                        "shelf"
+                    ],
+                    [
+                        17,
+                        "shelf"
+                    ],
+                    [
+                        460,
+                        "books"
+                    ]
+                ]
+            },
+            "4": {
+                "areaname": [
+                    19,
+                    "sitting_area"
+                ],
+                "contents": [
+                    [
+                        8,
+                        "armchair"
+                    ]
+                ]
+            },
+            "5": {
+                "areaname": [
+                    2,
+                    "bedding_area"
+                ],
+                "contents": [
+                    [
+                        9,
+                        "baby bed"
+                    ],
+                    [
+                        28,
+                        "pillow"
+                    ]
+                ]
+            },
+            "6": {
+                "areaname": [
+                    3,
+                    "changing_area"
+                ],
+                "contents": [
+                    [
+                        10,
+                        "baby changing unit"
+                    ],
+                    [
+                        19,
+                        "bin"
+                    ],
+                    [
+                        20,
+                        "pillow"
+                    ],
+                    [
+                        43,
+                        "items"
+                    ],
+                    [
+                        200,
+                        "blanket"
+                    ]
+                ]
+            },
+            "7": {
+                "areaname": [
+                    11,
+                    "lightening_area"
+                ],
+                "contents": [
+                    [
+                        14,
+                        "light"
+                    ]
+                ]
+            },
+            "8": {
+                "areaname": [
+                    8,
+                    "entrance_area"
+                ],
+                "contents": [
+                    [
+                        34,
+                        "doorframe"
+                    ]
+                ]
+            },
+            "9": {
+                "areaname": [
+                    17,
+                    "shelf_area"
+                ],
+                "contents": [
+                    [
+                        29,
+                        "shelf"
+                    ],
+                    [
+                        32,
+                        "object"
+                    ]
+                ]
+            },
+            "10": {
+                "areaname": [
+                    6,
+                    "decoration_area"
+                ],
+                "contents": [
+                    [
+                        33,
+                        "picture"
+                    ]
+                ]
+            },
+            "11": {
+                "areaname": [
+                    17,
+                    "shelf_area"
+                ],
+                "contents": [
+                    [
+                        38,
+                        "shelf"
+                    ],
+                    [
+                        39,
+                        "shelf"
+                    ],
+                    [
+                        40,
+                        "shelf"
+                    ],
+                    [
+                        41,
+                        "shelf"
+                    ],
+                    [
+                        21,
+                        "shelf"
+                    ]
+                ]
+            },
+            "12": {
+                "areaname": [
+                    6,
+                    "decoration_area"
+                ],
+                "contents": [
+                    [
+                        44,
+                        "picture"
+                    ]
+                ]
+            },
+            "13": {
+                "areaname": [
+                    20,
+                    "storage_area"
+                ],
+                "contents": [
+                    [
+                        23,
+                        "cabinet"
+                    ],
+                    [
+                        35,
+                        "radio"
+                    ],
+                    [
+                        36,
+                        "item"
+                    ],
+                    [
+                        37,
+                        "item"
+                    ],
+                    [
+                        25,
+                        "shelf"
+                    ]
+                ]
+            }
+        }
+    },
+    "0cac760d-8d6f-2d13-8ea2-109ce4da9ac9": {
+        "roomtype": [
+            1,
+            "bedroom"
+        ],
+        "groups": {
+            "0": {
+                "areaname": [
+                    19,
+                    "sitting_area"
+                ],
+                "contents": [
+                    [
+                        2,
+                        "chair"
+                    ],
+                    [
+                        12,
+                        "table"
+                    ],
+                    [
+                        40,
+                        "pillow"
+                    ]
+                ]
+            },
+            "1": {
+                "areaname": [
+                    2,
+                    "bedding_area"
+                ],
+                "contents": [
+                    [
+                        3,
+                        "bed"
+                    ],
+                    [
+                        34,
+                        "pillow"
+                    ],
+                    [
+                        35,
+                        "pillow"
+                    ],
+                    [
+                        36,
+                        "pillow"
+                    ],
+                    [
+                        37,
+                        "pillow"
+                    ],
+                    [
+                        38,
+                        "blanket"
+                    ],
+                    [
+                        39,
+                        "blanket"
+                    ]
+                ]
+            },
+            "2": {
+                "areaname": [
+                    26,
+                    "window_area"
+                ],
+                "contents": [
+                    [
+                        7,
+                        "curtain"
+                    ]
+                ]
+            },
+            "3": {
+                "areaname": [
+                    12,
+                    "makingup_area"
+                ],
+                "contents": [
+                    [
+                        9,
+                        "table"
+                    ],
+                    [
+                        10,
+                        "stool"
+                    ],
+                    [
+                        11,
+                        "mirror"
+                    ]
+                ]
+            },
+            "4": {
+                "areaname": [
+                    25,
+                    "wardrobe_area"
+                ],
+                "contents": [
+                    [
+                        13,
+                        "wardrobe"
+                    ]
+                ]
+            },
+            "5": {
+                "areaname": [
+                    20,
+                    "storage_area"
+                ],
+                "contents": [
+                    [
+                        15,
+                        "commode"
+                    ],
+                    [
+                        26,
+                        "player"
+                    ],
+                    [
+                        27,
+                        "shelf"
+                    ]
+                ]
+            },
+            "6": {
+                "areaname": [
+                    6,
+                    "decoration_area"
+                ],
+                "contents": [
+                    [
+                        33,
+                        "picture"
+                    ],
+                    [
+                        14,
+                        "mirror"
+                    ]
+                ]
+            },
+            "7": {
+                "areaname": [
+                    17,
+                    "shelf_area"
+                ],
+                "contents": [
+                    [
+                        41,
+                        "shelf"
+                    ]
+                ]
+            },
+            "8": {
+                "areaname": [
+                    11,
+                    "lightening_area"
+                ],
+                "contents": [
+                    [
+                        18,
+                        "lamp"
+                    ],
+                    [
+                        17,
+                        "lamp"
+                    ]
+                ]
+            },
+            "9": {
+                "areaname": [
+                    13,
+                    "nightstand_area"
+                ],
+                "contents": [
+                    [
+                        4,
+                        "nightstand"
+                    ],
+                    [
+                        5,
+                        "nightstand"
+                    ],
+                    [
+                        24,
+                        "box"
+                    ],
+                    [
+                        25,
+                        "candle"
+                    ]
+                ]
+            }
+        }
+    },
+    "0cac761d-8d6f-2d13-8f35-2364ee20f2a9": {
+        "roomtype": [
+            2,
+            "kitchen"
+        ],
+        "groups": {
+            "0": {
+                "areaname": [
+                    10,
+                    "kitchen_area"
+                ],
+                "contents": [
+                    [
+                        4,
+                        "cabinet"
+                    ],
+                    [
+                        11,
+                        "kitchen cabinet"
+                    ],
+                    [
+                        12,
+                        "kitchen cabinet"
+                    ],
+                    [
+                        13,
+                        "counter"
+                    ],
+                    [
+                        15,
+                        "kitchen cabinet"
+                    ],
+                    [
+                        16,
+                        "kitchen cabinet"
+                    ],
+                    [
+                        18,
+                        "cutting board"
+                    ],
+                    [
+                        19,
+                        "shelf"
+                    ],
+                    [
+                        20,
+                        "item"
+                    ],
+                    [
+                        21,
+                        "stove"
+                    ],
+                    [
+                        22,
+                        "rolling pin"
+                    ],
+                    [
+                        23,
+                        "sink"
+                    ],
+                    [
+                        25,
+                        "oven"
+                    ],
+                    [
+                        26,
+                        "extractor fan"
+                    ],
+                    [
+                        32,
+                        "items"
+                    ]
+                ]
+            },
+            "1": {
+                "areaname": [
+                    26,
+                    "window_area"
+                ],
+                "contents": [
+                    [
+                        6,
+                        "curtain"
+                    ]
+                ]
+            },
+            "2": {
+                "areaname": [
+                    7,
+                    "dining_area"
+                ],
+                "contents": [
+                    [
+                        8,
+                        "table"
+                    ],
+                    [
+                        9,
+                        "chair"
+                    ],
+                    [
+                        10,
+                        "chair"
+                    ],
+                    [
+                        29,
+                        "lamp"
+                    ]
+                ]
+            }
+        }
+    },
+    "0cac764c-8d6f-2d13-8fec-15edfc3e53ad": {
+        "roomtype": [
+            1,
+            "bedroom"
+        ],
+        "groups": {
+            "0": {
+                "areaname": [
+                    12,
+                    "makingup_area"
+                ],
+                "contents": [
+                    [
+                        2,
+                        "stool"
+                    ],
+                    [
+                        18,
+                        "bin"
+                    ],
+                    [
+                        31,
+                        "clothes"
+                    ],
+                    [
+                        17,
+                        "counter"
+                    ],
+                    [
+                        24,
+                        "shelf"
+                    ],
+                    [
+                        27,
+                        "vase"
+                    ]
+                ]
+            },
+            "1": {
+                "areaname": [
+                    5,
+                    "commode_area"
+                ],
+                "contents": [
+                    [
+                        3,
+                        "commode"
+                    ],
+                    [
+                        12,
+                        "picture"
+                    ],
+                    [
+                        13,
+                        "picture"
+                    ],
+                    [
+                        34,
+                        "item"
+                    ],
+                    [
+                        35,
+                        "item"
+                    ]
+                ]
+            },
+            "2": {
+                "areaname": [
+                    2,
+                    "bedding_area"
+                ],
+                "contents": [
+                    [
+                        4,
+                        "bed"
+                    ],
+                    [
+                        47,
+                        "pillow"
+                    ],
+                    [
+                        48,
+                        "pillow"
+                    ],
+                    [
+                        49,
+                        "blanket"
+                    ]
+                ]
+            },
+            "3": {
+                "areaname": [
+                    26,
+                    "window_area"
+                ],
+                "contents": [
+                    [
+                        9,
+                        "curtain"
+                    ]
+                ]
+            },
+            "4": {
+                "areaname": [
+                    22,
+                    "table_area"
+                ],
+                "contents": [
+                    [
+                        14,
+                        "table"
+                    ],
+                    [
+                        46,
+                        "item"
+                    ]
+                ]
+            },
+            "5": {
+                "areaname": [
+                    6,
+                    "decoration_area"
+                ],
+                "contents": [
+                    [
+                        10,
+                        "picture"
+                    ],
+                    [
+                        11,
+                        "picture"
+                    ]
+                ]
+            },
+            "6": {
+                "areaname": [
+                    25,
+                    "wardrobe_area"
+                ],
+                "contents": [
+                    [
+                        15,
+                        "wardrobe"
+                    ]
+                ]
+            },
+            "7": {
+                "areaname": [
+                    13,
+                    "nightstand_area"
+                ],
+                "contents": [
+                    [
+                        5,
+                        "nightstand"
+                    ],
+                    [
+                        6,
+                        "nightstand"
+                    ],
+                    [
+                        36,
+                        "frame"
+                    ],
+                    [
+                        37,
+                        "frame"
+                    ],
+                    [
+                        38,
+                        "item"
+                    ],
+                    [
+                        39,
+                        "book"
+                    ],
+                    [
+                        40,
+                        "box"
+                    ]
+                ]
+            },
+            "8": {
+                "areaname": [
+                    11,
+                    "lightening_area"
+                ],
+                "contents": [
+                    [
+                        42,
+                        "lamp"
+                    ],
+                    [
+                        44,
+                        "lamp"
+                    ]
+                ]
+            },
+            "9": {
+                "areaname": [
+                    16,
+                    "rack_area"
+                ],
+                "contents": [
+                    [
+                        50,
+                        "rack"
+                    ]
+                ]
+            }
+        }
+    },
+    "0cac7549-8d6f-2d13-8d56-b895956f571a": {
+        "roomtype": [
+            9,
+            "restaurant"
+        ],
+        "groups": {
+            "0": {
+                "areaname": [
+                    7,
+                    "dining_area"
+                ],
+                "contents": [
+                    [
+                        2,
+                        "table"
+                    ],
+                    [
+                        30,
+                        "salt"
+                    ],
+                    [
+                        3,
+                        "chair"
+                    ],
+                    [
+                        4,
+                        "chair"
+                    ],
+                    [
+                        5,
+                        "chair"
+                    ],
+                    [
+                        6,
+                        "chair"
+                    ],
+                    [
+                        15,
+                        "bench"
+                    ],
+                    [
+                        31,
+                        "salt"
+                    ],
+                    [
+                        8,
+                        "bench"
+                    ]
+                ]
+            },
+            "1": {
+                "areaname": [
+                    7,
+                    "dining_area"
+                ],
+                "contents": [
+                    [
+                        7,
+                        "table"
+                    ],
+                    [
+                        32,
+                        "salt"
+                    ],
+                    [
+                        21,
+                        "bench"
+                    ],
+                    [
+                        9,
+                        "bench"
+                    ]
+                ]
+            },
+            "2": {
+                "areaname": [
+                    7,
+                    "dining_area"
+                ],
+                "contents": [
+                    [
+                        12,
+                        "table"
+                    ],
+                    [
+                        13,
+                        "chair"
+                    ],
+                    [
+                        33,
+                        "salt"
+                    ],
+                    [
+                        11,
+                        "bench"
+                    ],
+                    [
+                        14,
+                        "bench"
+                    ],
+                    [
+                        10,
+                        "bench"
+                    ]
+                ]
+            },
+            "3": {
+                "areaname": [
+                    26,
+                    "window_area"
+                ],
+                "contents": [
+                    [
+                        19,
+                        "window"
+                    ],
+                    [
+                        20,
+                        "window"
+                    ]
+                ]
+            },
+            "4": {
+                "areaname": [
+                    26,
+                    "window_area"
+                ],
+                "contents": [
+                    [
+                        22,
+                        "window"
+                    ]
+                ]
+            }
+        }
+    },
+    "0cac7564-8d6f-2d13-8cb2-8b01c0a1b3d5": {
+        "roomtype": [
+            5,
+            "meetingroom"
+        ],
+        "groups": {
+            "0": {
+                "areaname": [
+                    19,
+                    "sitting_area"
+                ],
+                "contents": [
+                    [
+                        2,
+                        "sofa"
+                    ],
+                    [
+                        6,
+                        "cube"
+                    ],
+                    [
+                        4,
+                        "armchair"
+                    ],
+                    [
+                        5,
+                        "armchair"
+                    ],
+                    [
+                        7,
+                        "armchair"
+                    ],
+                    [
+                        20,
+                        "lamp"
+                    ]
+                ]
+            },
+            "1": {
+                "areaname": [
+                    25,
+                    "wardrobe_area"
+                ],
+                "contents": [
+                    [
+                        9,
+                        "wardrobe"
+                    ]
+                ]
+            },
+            "2": {
+                "areaname": [
+                    19,
+                    "sitting_area"
+                ],
+                "contents": [
+                    [
+                        25,
+                        "armchair"
+                    ],
+                    [
+                        13,
+                        "puf"
+                    ],
+                    [
+                        8,
+                        "lamp"
+                    ]
+                ]
+            },
+            "3": {
+                "areaname": [
+                    19,
+                    "sitting_area"
+                ],
+                "contents": [
+                    [
+                        17,
+                        "chair"
+                    ]
+                ]
+            },
+            "4": {
+                "areaname": [
+                    21,
+                    "supporting_area"
+                ],
+                "contents": [
+                    [
+                        10,
+                        "pillar"
+                    ]
+                ]
+            },
+            "5": {
+                "areaname": [
+                    21,
+                    "supporting_area"
+                ],
+                "contents": [
+                    [
+                        12,
+                        "pillar"
+                    ]
+                ]
+            }
+        }
+    },
+    "0cac7604-8d6f-2d13-8e39-784396ee3b8c": {
+        "roomtype": [
+            2,
+            "kitchen"
+        ],
+        "groups": {
+            "0": {
+                "areaname": [
+                    26,
+                    "window_area"
+                ],
+                "contents": [
+                    [
+                        3,
+                        "curtain"
+                    ]
+                ]
+            },
+            "1": {
+                "areaname": [
+                    7,
+                    "dining_area"
+                ],
+                "contents": [
+                    [
+                        4,
+                        "table"
+                    ],
+                    [
+                        5,
+                        "chair"
+                    ],
+                    [
+                        6,
+                        "chair"
+                    ]
+                ]
+            },
+            "2": {
+                "areaname": [
+                    20,
+                    "storage_area"
+                ],
+                "contents": [
+                    [
+                        7,
+                        "cupboard"
+                    ],
+                    [
+                        9,
+                        "shelf"
+                    ],
+                    [
+                        29,
+                        "chair"
+                    ]
+                ]
+            },
+            "3": {
+                "areaname": [
+                    10,
+                    "kitchen_area"
+                ],
+                "contents": [
+                    [
+                        10,
+                        "counter"
+                    ],
+                    [
+                        11,
+                        "object"
+                    ],
+                    [
+                        13,
+                        "kitchen cabinet"
+                    ],
+                    [
+                        14,
+                        "kitchen cabinet"
+                    ],
+                    [
+                        15,
+                        "kitchen cabinet"
+                    ],
+                    [
+                        16,
+                        "sink"
+                    ],
+                    [
+                        32,
+                        "pan"
+                    ],
+                    [
+                        33,
+                        "stove"
+                    ],
+                    [
+                        35,
+                        "plate"
+                    ],
+                    [
+                        36,
+                        "plate"
+                    ]
+                ]
+            },
+            "4": {
+                "areaname": [
+                    6,
+                    "decoration_area"
+                ],
+                "contents": [
+                    [
+                        30,
+                        "clock"
+                    ]
+                ]
+            }
+        }
+    },
+    "0cac7621-8d6f-2d13-8cb1-ac43b90f4141": {
+        "roomtype": [
+            0,
+            "bathroom"
+        ],
+        "groups": {
+            "0": {
+                "areaname": [
+                    18,
+                    "sink_area"
+                ],
+                "contents": [
+                    [
+                        22,
+                        "mirror"
+                    ],
+                    [
+                        11,
+                        "sink"
+                    ],
+                    [
+                        9,
+                        "bath cabinet"
+                    ]
+                ]
+            },
+            "1": {
+                "areaname": [
+                    20,
+                    "storage_area"
+                ],
+                "contents": [
+                    [
+                        7,
+                        "cabinet"
+                    ],
+                    [
+                        26,
+                        "box"
+                    ],
+                    [
+                        10,
+                        "commode"
+                    ],
+                    [
+                        8,
+                        "clothes"
+                    ],
+                    [
+                        114,
+                        "hanger"
+                    ]
+                ]
+            },
+            "2": {
+                "areaname": [
+                    1,
+                    "bathing_area"
+                ],
+                "contents": [
+                    [
+                        12,
+                        "shower curtain"
+                    ]
+                ]
+            },
+            "3": {
+                "areaname": [
+                    20,
+                    "storage_area"
+                ],
+                "contents": [
+                    [
+                        16,
+                        "cabinet"
+                    ],
+                    [
+                        103,
+                        "laundry basket"
+                    ]
+                ]
+            },
+            "4": {
+                "areaname": [
+                    23,
+                    "toilet_area"
+                ],
+                "contents": [
+                    [
+                        13,
+                        "toilet"
+                    ],
+                    [
+                        106,
+                        "toilet paper holder"
+                    ],
+                    [
+                        107,
+                        "bag"
+                    ]
+                ]
+            },
+            "5": {
+                "areaname": [
+                    20,
+                    "storage_area"
+                ],
+                "contents": [
+                    [
+                        27,
+                        "box"
+                    ],
+                    [
+                        100,
+                        "box"
+                    ],
+                    [
+                        101,
+                        "box"
+                    ]
+                ]
+            },
+            "6": {
+                "areaname": [
+                    0,
+                    "appliance_area"
+                ],
+                "contents": [
+                    [
+                        104,
+                        "clothes dryer"
+                    ]
+                ]
+            }
+        }
+    },
+    "0cac7627-8d6f-2d13-8eac-41764b5f2c5b": {
+        "roomtype": [
+            10,
+            "storeroom"
+        ],
+        "groups": {
+            "0": {
+                "areaname": [
+                    20,
+                    "storage_area"
+                ],
+                "contents": [
+                    [
+                        3,
+                        "shoe commode"
+                    ],
+                    [
+                        4,
+                        "picture"
+                    ],
+                    [
+                        5,
+                        "picture"
+                    ],
+                    [
+                        15,
+                        "frame"
+                    ],
+                    [
+                        16,
+                        "shelf"
+                    ],
+                    [
+                        6,
+                        "picture"
+                    ],
+                    [
+                        9,
+                        "shelf"
+                    ]
+                ]
+            },
+            "1": {
+                "areaname": [
+                    8,
+                    "entrance_area"
+                ],
+                "contents": [
+                    [
+                        7,
+                        "door"
+                    ]
+                ]
+            }
+        }
+    },
+    "0cac7642-8d6f-2d13-8f9f-eb19016049fa": {
+        "roomtype": [
+            1,
+            "bedroom"
+        ],
+        "groups": {
+            "0": {
+                "areaname": [
+                    2,
+                    "bedding_area"
+                ],
+                "contents": [
+                    [
+                        2,
+                        "bed"
+                    ],
+                    [
+                        25,
+                        "pillow"
+                    ],
+                    [
+                        26,
+                        "pillow"
+                    ],
+                    [
+                        27,
+                        "pillow"
+                    ],
+                    [
+                        28,
+                        "pillow"
+                    ],
+                    [
+                        29,
+                        "pillow"
+                    ],
+                    [
+                        30,
+                        "pillow"
+                    ],
+                    [
+                        31,
+                        "pillow"
+                    ],
+                    [
+                        32,
+                        "blanket"
+                    ],
+                    [
+                        33,
+                        "blanket"
+                    ]
+                ]
+            },
+            "1": {
+                "areaname": [
+                    22,
+                    "table_area"
+                ],
+                "contents": [
+                    [
+                        6,
+                        "side table"
+                    ],
+                    [
+                        7,
+                        "side table"
+                    ]
+                ]
+            },
+            "2": {
+                "areaname": [
+                    26,
+                    "window_area"
+                ],
+                "contents": [
+                    [
+                        13,
+                        "curtain"
+                    ]
+                ]
+            },
+            "3": {
+                "areaname": [
+                    25,
+                    "wardrobe_area"
+                ],
+                "contents": [
+                    [
+                        10,
+                        "wardrobe"
+                    ]
+                ]
+            },
+            "4": {
+                "areaname": [
+                    24,
+                    "tv_area"
+                ],
+                "contents": [
+                    [
+                        14,
+                        "commode"
+                    ],
+                    [
+                        17,
+                        "tv"
+                    ]
+                ]
+            },
+            "5": {
+                "areaname": [
+                    17,
+                    "shelf_area"
+                ],
+                "contents": [
+                    [
+                        16,
+                        "bookshelf"
+                    ]
+                ]
+            },
+            "6": {
+                "areaname": [
+                    13,
+                    "nightstand_area"
+                ],
+                "contents": [
+                    [
+                        8,
+                        "nightstand"
+                    ],
+                    [
+                        9,
+                        "nightstand"
+                    ],
+                    [
+                        23,
+                        "frame"
+                    ]
+                ]
+            },
+            "7": {
+                "areaname": [
+                    11,
+                    "lightening_area"
+                ],
+                "contents": [
+                    [
+                        3,
+                        "lamp"
+                    ],
+                    [
+                        15,
+                        "lamp"
+                    ]
+                ]
+            }
+        }
+    },
+    "0f2f271b-b736-2f71-8f3a-e9265463abcb": {
+        "roomtype": [
+            7,
+            "office"
+        ],
+        "groups": {
+            "0": {
+                "areaname": [
+                    20,
+                    "storage_area"
+                ],
+                "contents": [
+                    [
+                        3,
+                        "cabinet"
+                    ],
+                    [
+                        4,
+                        "shelf"
+                    ],
+                    [
+                        7,
+                        "box"
+                    ]
+                ]
+            },
+            "1": {
+                "areaname": [
+                    14,
+                    "office_area"
+                ],
+                "contents": [
+                    [
+                        18,
+                        "stand"
+                    ],
+                    [
+                        19,
+                        "monitor"
+                    ],
+                    [
+                        58,
+                        "pc"
+                    ],
+                    [
+                        45,
+                        "item"
+                    ],
+                    [
+                        46,
+                        "item"
+                    ],
+                    [
+                        54,
+                        "telephone"
+                    ],
+                    [
+                        56,
+                        "clutter"
+                    ],
+                    [
+                        55,
+                        "item"
+                    ],
+                    [
+                        16,
+                        "desk"
+                    ],
+                    [
+                        51,
+                        "monitor"
+                    ],
+                    [
+                        49,
+                        "item"
+                    ],
+                    [
+                        43,
+                        "backpack"
+                    ],
+                    [
+                        39,
+                        "backpack"
+                    ],
+                    [
+                        40,
+                        "backpack"
+                    ],
+                    [
+                        48,
+                        "telephone"
+                    ]
+                ]
+            },
+            "2": {
+                "areaname": [
+                    6,
+                    "decoration_area"
+                ],
+                "contents": [
+                    [
+                        11,
+                        "whiteboard"
+                    ]
+                ]
+            },
+            "3": {
+                "areaname": [
+                    8,
+                    "entrance_area"
+                ],
+                "contents": [
+                    [
+                        9,
+                        "door"
+                    ]
+                ]
+            },
+            "4": {
+                "areaname": [
+                    26,
+                    "window_area"
+                ],
+                "contents": [
+                    [
+                        13,
+                        "blinds"
+                    ],
+                    [
+                        14,
+                        "window"
+                    ],
+                    [
+                        57,
+                        "windowsill"
+                    ],
+                    [
+                        47,
+                        "plant"
+                    ]
+                ]
+            },
+            "5": {
+                "areaname": [
+                    0,
+                    "appliance_area"
+                ],
+                "contents": [
+                    [
+                        15,
+                        "heater"
+                    ],
+                    [
+                        44,
+                        "humidifier"
+                    ]
+                ]
+            },
+            "6": {
+                "areaname": [
+                    14,
+                    "office_area"
+                ],
+                "contents": [
+                    [
+                        29,
+                        "device"
+                    ],
+                    [
+                        24,
+                        "stand"
+                    ],
+                    [
+                        30,
+                        "folder"
+                    ],
+                    [
+                        23,
+                        "desk"
+                    ],
+                    [
+                        28,
+                        "monitor"
+                    ],
+                    [
+                        31,
+                        "box"
+                    ],
+                    [
+                        32,
+                        "item"
+                    ],
+                    [
+                        33,
+                        "item"
+                    ],
+                    [
+                        34,
+                        "item"
+                    ]
+                ]
+            },
+            "7": {
+                "areaname": [
+                    19,
+                    "sitting_area"
+                ],
+                "contents": [
+                    [
+                        17,
+                        "chair"
+                    ],
+                    [
+                        20,
+                        "chair"
+                    ],
+                    [
+                        21,
+                        "chair"
+                    ],
+                    [
+                        22,
+                        "chair"
+                    ],
+                    [
+                        42,
+                        "item"
+                    ],
+                    [
+                        41,
+                        "stand"
+                    ]
+                ]
+            },
+            "8": {
+                "areaname": [
+                    11,
+                    "lightening_area"
+                ],
+                "contents": [
+                    [
+                        26,
+                        "light"
+                    ],
+                    [
+                        27,
+                        "light"
+                    ]
+                ]
+            },
+            "9": {
+                "areaname": [
+                    20,
+                    "storage_area"
+                ],
+                "contents": [
+                    [
+                        37,
+                        "trash can"
+                    ],
+                    [
+                        38,
+                        "trash can"
+                    ]
+                ]
+            }
+        }
+    }
+}
