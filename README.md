@@ -1,6 +1,10 @@
 # TB-HSU: Hierarchical 3D Scene Understanding with Contextual Affordances 
 This repository hosts the code of model "**TB-HSU**" and the dataset "**3DHSG**" for [Full Paper](https://arxiv.org/abs/2412.05596) | Project
 
+
+[TB_HSU_Poster_v3.pdf](https://github.com/user-attachments/files/19221415/TB_HSU_Poster_v3.pdf)
+
+
 ## News
 * 🎉 Dec 2024: TB-HSU accepted by AAAI2025
 
