@@ -53,8 +53,10 @@ Many thanks to the following codes that help us a lot in building this codebase:
 * [3DSSG](https://github.com/ShunChengWu/3DSSG)
 
 ## Citation
-If you find our work useful in your research, please consider citing us:
 DOI:https://doi.org/10.1609/aaai.v39i9.32969
+
+If you find our work useful in your research, please consider citing us:
+
 ```
 @article{Xu_Ila_Zhou_Jin_2025,
 title={TB-HSU: Hierarchical 3D Scene Understanding with Contextual Affordances},
@@ -62,7 +64,8 @@ volume={39},
 url={https://ojs.aaai.org/index.php/AAAI/article/view/32969},
 DOI={10.1609/aaai.v39i9.32969},
 number={9},
-journal={Proceedings of the AAAI Conference on Artificial Intelligence}, author={Xu, Wenting and Ila, Viorela and Zhou, Luping and Jin, Craig T.},
+journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+author={Xu, Wenting and Ila, Viorela and Zhou, Luping and Jin, Craig T.},
 year={2025},
 month={Apr.},
 pages={8960-8968} }
