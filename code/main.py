@@ -72,7 +72,7 @@ def H3DSG_Object_Groups_Prepartion(GroupingFile):
             list_aff_region = sorted(list(aff_layer2.keys()))
         with open (os.path.join(os.path.dirname(__file__),'3DHSG','3DHSG.json'),'r')as f:
             H3DSG = json.load(f)
-
+        # scans are the ScanID of H3DSG, need to modify here.
         scans_dict = {}
         for scan in scans:
             groups = {}
@@ -158,9 +158,12 @@ def evaluation_2():
     FN_at = torch.zeros(len(all_areatypes_list),dtype=torch.int32)
     FP_at = torch.zeros(len(all_areatypes_list),dtype=torch.int32)
     All_area_dict ={}
-    with open (os.path.join(os.path.dirname(__file__),'H3DSG_gt.json'),'r')as f:
-        scanid_groups = json.load(f)
+    
+    # with open (os.path.join(os.path.dirname(__file__),'H3DSG_gt.json'),'r')as f:
+        # scanid_groups = json.load(f)
+    # for this version of code, we don't need this.
 
+    
     for idx, batch in enumerate(validation_dataloader): 
 
         obj_obb = batch["obj_obb"]
@@ -258,8 +261,8 @@ def evaluation_2():
         All_area_dict[batch["scanid"][0]] = {
             "Layer1":all_roomtypes_list[rm_index.indices[0]],
             "Layer2":Area_dict,
-            "GT_Layer1":scanid_groups[batch["scanid"][0]]["Layer1"],
-            "GT_Layer2":scanid_groups[batch["scanid"][0]]["Layer2"]
+            # "GT_Layer1":scanid_groups[batch["scanid"][0]]["Layer1"], # we comment the part related to H3DSG_gt.json, these two lines are for better visualization for the prediction compared to gt.
+            # "GT_Layer2":scanid_groups[batch["scanid"][0]]["Layer2"]
             }
         
     rm_recall, rm_IoU = calculate_metrics(TP_rm, FN_rm, FP_rm)
